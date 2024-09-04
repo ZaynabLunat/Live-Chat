@@ -27,3 +27,8 @@ form {
 p {
   color: yellow;
 }
+
+.count{
+  transform: translateY(-20px);
+  color: rgb(130, 162, 219);
+}
