@@ -1,5 +1,4 @@
-//const connection = new WebSocket("https://web-socket-server-01zs.onrender.com");
-const connection = new WebSocket("ws://localhost:8080");
+const connection = new WebSocket("https://web-socket-server-01zs.onrender.com");
 const form = document.querySelector("form");
 const messages = document.querySelector(".messages");
 const userCount = document.querySelector(".count");
