@@ -25,10 +25,42 @@ form {
 }
 
 p {
-  color: yellow;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    skyblue,
+    rgb(145, 145, 249),
+    rgb(146, 228, 146),
+    magenta,
+    orange,
+    yellow
+  );
+  background-clip: text;
+  color: transparent;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
 }
 
-.count{
+.count {
   transform: translateY(-20px);
   color: rgb(130, 162, 219);
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+a {
+  color: rgb(237, 164, 27);
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
