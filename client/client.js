@@ -1,5 +1,5 @@
-//const connection = new WebSocket("https://web-socket-server-01zs.onrender.com");
-const connection = new WebSocket("ws://localhost:8080");
+const connection = new WebSocket("https://web-socket-server-01zs.onrender.com");
+// const connection = new WebSocket("ws://localhost:8080");
 const form = document.querySelector("form");
 const messages = document.querySelector(".messages");
 const userCount = document.querySelector(".count");
@@ -16,23 +16,22 @@ connection.onerror = (event) => {
   console.error("WebSocket error observed:", event);
 };
 
-function addMessage(user, message){
+function addMessage(user, message) {
   const newMsg = document.createElement("p");
   newMsg.textContent = `${user} says ${message}`;
   messages.appendChild(newMsg);
 }
 
-function updateCount(count){
+function updateCount(count) {
   userCount.textContent = `Live users: ${count}`;
 }
 
 connection.onmessage = async (event) => {
-  if (isNaN(event.data)){
+  if (isNaN(event.data)) {
     let payload = JSON.parse(await event.data.text());
-    addMessage(payload.user, payload.message)
+    addMessage(payload.user, payload.message);
     console.log("NAN");
-  }
-  else{
+  } else {
     let payload = JSON.parse(await event.data);
     console.log("There is " + parseInt(payload) + " user");
     updateCount(parseInt(payload));
