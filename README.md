@@ -1,13 +1,19 @@
-# Live Chat is an app that showcases web sockets in use displaying live chat data alongside a live user count.
+# Live Chat is a web application that demonstrates the use of web sockets, allowing real-time chat functionality and displaying a live user count
 
-## This was part of a group project being able to research, understand and deploy it to seee the web sockets in action. It was created using a vanilla monorepo setup using vite and deployed on Vercel, The about page provides links to documentation that was used. The user stories fpr this project were the following:
+https://web-socket-pi.vercel.app/
 
-- The user will find the app easy to navigate
-- The app needs to be visually appealing to the eye
-- The app will need install and use web socket
-- The app will include resources used for the user if they are intersted in further reading and using it themselves
-- The user will see a live user count as more people go onto the website or if it is opened a few times in the web browser
-- The user will be able to submit a message and see the messages of others appear
-- The user needs to feel excited or suprised once thet submit the message - utilising the gradient colouring on the text using CSS
+## This app was built as part of a group project aimed at researching, understanding, and deploying web sockets in action. It was developed using a vanilla monorepo setup with Vite and deployed on Vercel. The "About" page contains links to the documentation and resources that were instrumental in the development process.
 
-One issue we struggled with deploying a vite file with pages on Vercel - tried muitple differeent debugging solutions such as adding the about.html file into a folder, changing the path and using . Through a little reserach we came across this “Vite Production Build” https://vitejs.dev/guide/build#multi-page-app reseouce which helped resolve the isssue and successfully deployed on Vercel.
+User Stories 
+
+Users will find the app intuitive and easy to navigate. 
+The design will be visually appealing and engaging. 
+The app will utilize and install web sockets for real-time communication. 
+Resources used in development will be available for users interested in further reading or building similar apps. 
+Users will see a live user count that updates as more people visit the site or open the app in multiple browser windows. 
+Users will be able to submit messages and view others' messages in real time. 
+The app will evoke excitement or surprise when users submit messages, highlighted by gradient-colored text using CSS.
+
+Challenges and Solutions 
+
+One challenge we encountered was deploying a Vite project with multiple pages on Vercel. After trying several debugging solutions, such as placing the about.html file in a folder and modifying the file paths, we found the solution through the Vite documentation. The resource, "Vite Production Build", helped us resolve the issue, and we successfully deployed the project on Vercel.
