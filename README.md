@@ -6,13 +6,13 @@ https://web-socket-pi.vercel.app/
 
 User Stories 
 
-Users will find the app intuitive and easy to navigate. 
-The design will be visually appealing and engaging. 
-The app will utilize and install web sockets for real-time communication. 
-Resources used in development will be available for users interested in further reading or building similar apps. 
-Users will see a live user count that updates as more people visit the site or open the app in multiple browser windows. 
-Users will be able to submit messages and view others' messages in real time. 
-The app will evoke excitement or surprise when users submit messages, highlighted by gradient-colored text using CSS.
+- Users will find the app intuitive and easy to navigate.
+- The design will be visually appealing and engaging.
+- The app will utilize and install web sockets for real-time communication.
+- Resources used in development will be available for users interested in further reading or building similar apps.
+- Users will see a live user count that updates as more people visit the site or open the app in multiple browser windows.
+- Users will be able to submit messages and view others' messages in real time.
+- The app will evoke excitement or surprise when users submit messages, highlighted by gradient-colored text using CSS.
 
 Challenges and Solutions 
 
